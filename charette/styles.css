@@ -1,0 +1,72 @@
+html{
+	height: 100%;
+	width: 100%;
+	font-family: 'Lexend Deca', sans-serif;
+}
+
+
+.container{
+	background-color: #FF5733;
+	height: 200px;
+	width: 200px;
+	float: left;
+	position: relative;
+	margin: .5%;
+
+}
+
+#click{
+	background-color: #FF5733;
+	border: none;
+	height: 200px;
+	width: 200px;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+
+.changeBackground{
+   background-color: #FF8F00 !important;
+}
+
+p{
+	font-size: 20px;
+	margin-top: 150px;
+	margin-left: 90px;
+}
+
+
+.append{
+	margin-top: 0px;
+	margin-left: 0;
+}
+
+
+#button_1{
+	background-color: #F0E68C;
+	margin-left: 80px;
+	margin-bottom: 10px;
+}
+
+#button_2{
+	background-color: #F0E68C;
+	margin-left: 80px;
+	margin-bottom: 10px;
+}
+
+#button_3{
+	background-color: #F0E68C;
+	margin-left: 80px;
+	margin-bottom: 10px;
+}
+
+.remove{
+	margin:0;
+}
+
+.prepend{
+	margin:0;
+
+}
+
+
+
