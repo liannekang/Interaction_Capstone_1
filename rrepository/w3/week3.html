@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+	 <link rel="stylesheet" type="text/css" href="w3styles.css">
+	 <script src="jquery.js"></script>
+	 <script src="w3script.js"></script>
+	<script src="lightslider.js"></script>
+	 <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	 <style>
+	.mySlides {display:none;}
+</style>
+	<title></title>
+</head>
+<body>
+	<div class="intro">
+		<h1>Reference Repository</h1>
+		<h2>Week3</h2>
+	</div>
+
+	<div id="container">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/zBnDWSvaQ1I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+  	
+	</div>
+
+<script>
+	var slideIndex = 1;
+	showDivs(slideIndex);
+
+	function plusDivs(n) {
+	  showDivs(slideIndex += n);
+	}
+
+	function showDivs(n) {
+	  var i;
+	  var x = document.getElementsByClassName("mySlides");
+	  if (n > x.length) {slideIndex = 1}
+	  if (n < 1) {slideIndex = x.length}
+	  for (i = 0; i < x.length; i++) {
+	    x[i].style.display = "none";  
+	  }
+	  x[slideIndex-1].style.display = "block";  
+	}
+</script>
+
+
+
+	<!-- <div> -->
+		
+
+		<div class="writing">
+			<h5>Is Google listening to our conversations?</h5>
+			<p class="fullpage1"> I watched a youtube video on Google's privacy issue. In the video, a guy repeats the word 'dog toy' for a few minutes. Before he starts, he stated that he have not ever mentioned 'dog toy' before. As comparison, he even shows ads before starting his experiment, which were completely unrelevent to dog toys and pets. After repeating the words, ads on pets and pet toys started to appear. 
+			</p>
+
+		<p class="fullpage1"> 
+			I have always praised new technology and innovation. I have never had a chance to be skeptical or doubt the voice listening feature on my devices. After watching the video, I began to think of how we should be considerate about how these new technologies process our information and how it could lead to the invasion of privacy. 
+		</p>
+		</div>
+
+	
+
+				
+
+	</div>
+
+</body>
+</html>

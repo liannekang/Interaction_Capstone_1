@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+	 <link rel="stylesheet" type="text/css" href="w4styles.css">
+	 <script src="jquery.js"></script>
+	 <script src="w4script.js"></script>
+	 <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	<title></title>
+</head>
+<body>
+	<div class="intro">
+		<h1>Reference Repository</h1>
+		<h2>Week 4</h2>
+	</div>
+
+	<div>
+
+
+	<div id="container">
+	<button class="left" onclick="plusDivs(-1)">&#10094;</button>
+  	<button class="right" onclick="plusDivs(1)">&#10095;</button>
+  	<img class="mySlides" src="img1.png" style="width:50%">
+  	<img class="mySlides" src="img2.png" style="width:50%">
+  	<img class="mySlides" src="img3.png" style="width:50%">
+  
+
+  	
+	</div>
+
+<script>
+	var slideIndex = 1;
+	showDivs(slideIndex);
+
+	function plusDivs(n) {
+	  showDivs(slideIndex += n);
+	}
+
+	function showDivs(n) {
+	  var i;
+	  var x = document.getElementsByClassName("mySlides");
+	  if (n > x.length) {slideIndex = 1}
+	  if (n < 1) {slideIndex = x.length}
+	  for (i = 0; i < x.length; i++) {
+	    x[i].style.display = "none";  
+	  }
+	  x[slideIndex-1].style.display = "block";  
+	}
+</script>
+
+
+
+	<!-- <div> -->
+		
+
+		<div class="writing">
+			<h5>jQuery Plugins</h5>
+			<p class="fullpage1"> 
+				This week, I discovered a website that has all sorts of jquery plugins for public use. jQuery plugin extends jQuery's prototype objects, which is default. Using the plugins that are already made by others, I can create a new jQuery object with functions that I want to use as well as all of the inherited jQuery methods. 
+			</p>		
+			<p class="fullpage1"> 
+				I was looking for a jquery or javascript plugin for smooth scrolling effect. For my Design for Social Impact class, I had to create a single page website prototype. Since my prototype was based on mobile-screen, I had to go through a lot of libraries that were available on-line to check if the plugins worked on mobile. I have also noticed that a lot of plugins required license, in which I could buy it through their website. I often had error messages when I used the free code provided on their Github. 
+			</p>
+		</div>	
+		<div class="writing">
+			<h5>fullPage.js</h5>	
+
+			<p class="fullpage1"> 
+			I found a plugin called "fullPage.js". I visited their Github, where I could download files and read instructions on how to use the plugin. Based on their descriptions, I was able to add required codes on my html, css, and js files. Although it was easy to use at first, I realized there were some codes that I did not recognize or understand. I had to frequently search the terms to customize the Plugin for my website. I would like to further look into different types of Plugins and try modifying them in my own website. 
+		</p>
+
+
+		</div>
+
+	
+				
+
+	</div>	
+		
+
+
+				
+
+	</div>
+
+	
+
+</body>
+</html>

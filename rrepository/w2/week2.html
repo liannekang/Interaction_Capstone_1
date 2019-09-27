@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+	 <link rel="stylesheet" type="text/css" href="w2styles.css">
+	 <script src="jquery.js"></script>
+	 <script src="w2script.js"></script>
+	 <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	<title></title>
+</head>
+<body>
+	<div class="intro">
+		<h1>Reference Repository</h1>
+		<h2>Week 2</h2>
+	</div>
+
+
+
+	<div id="container">
+	<button class="left" onclick="plusDivs(-1)">&#10094;</button>
+  	<button class="right" onclick="plusDivs(1)">&#10095;</button>
+  	<img class="mySlides" src="img1.png" style="width:50%">
+  	<img class="mySlides" src="img2.jpg" style="width:50%">
+  	<img class="mySlides" src="img3.jpg" style="width:50%">
+  	<img class="mySlides" src="img4.png" style="width:38%" "margin-left: 50px">
+  	<img class="mySlides" src="img5.png" style="width:38%">
+  	<img class="mySlides" src="img6.png" style="width:38%">
+  	<img class="mySlides" src="img7.png" style="width:38%">
+
+  	
+	</div>
+
+<script>
+	var slideIndex = 1;
+	showDivs(slideIndex);
+
+	function plusDivs(n) {
+	  showDivs(slideIndex += n);
+	}
+
+	function showDivs(n) {
+	  var i;
+	  var x = document.getElementsByClassName("mySlides");
+	  if (n > x.length) {slideIndex = 1}
+	  if (n < 1) {slideIndex = x.length}
+	  for (i = 0; i < x.length; i++) {
+	    x[i].style.display = "none";  
+	  }
+	  x[slideIndex-1].style.display = "block";  
+	}
+</script>
+
+		<div class="writing">
+			<h5>Moon Landing Conspiracy</h5>
+			<p class="fullpage1"> I watched the Conspiracy Theory show on netflix. The show was about the Moon landing conspiracy theory, which claims that the Moon landing and the Apollo program were all staged by NASA and the proofs were fake. Most conspiracists focus on the oddities found in photographs and films taken during the landing of the moon.  	
+			</p>
+
+		<p class="fullpage1"> 
+			Some argue that the footprints on the proof photograph do not match with the foot soles of the shoes that the astronauts of Apollo 12 team wore during the expedition.  
+		</p>
+		</div>
+
+		<div class="writing">
+		<h5>Counterarguments</h5>
+		<p class="fullpage1"> 
+			As I was researching on the conspiracy theories, I was also able to find some counterarguments against the conspiracy. I found some photocards from the USA today. 
+			First, regarding to the photo of a flag perfectly standing on the moon and fluttering by wind, they explained the flag was supported by the crossbar. Some were also skeptical about the rocks in the photographs, looking exactly like the rocks on Earth. For that, they wrote "Yes, it's just a moonrock." Next, they explained the absence of stars in sky is because the sunlight reflecting off the moon surface washes out the starlight. Lastly, they talked about the shadows that they could have been possible with sunlight reflected off the moon and the light eminatting from the lunar module. 
+		</p>
+	</div>
+
+		<div class="writing">
+		<h5>Thoughts</h5>
+		<p class="fullpage1"> 
+			Looking and reading through both sides of arguments, I felt there were some legitimate points on both sides. If the whole Moon Landing project was faked by NASA and the government, there would be a whole lot of impact on the society.
+		</p>
+		
+		
+
+
+
+		</div>
+
+				
+
+	</div>
+
+
+
+
+
+	<!-- 
+		
+		<img class= "img1" src="img1.jpg" alt="fullpage">
+
+
+		<div class="writing" id="first">
+			<h5>Moon Landing Conspiracy Theory</h5>
+			<p class="fullpage1"> I watched the Conspiracy Theory show on netflix. The show was about the Moon landing conspiracy theory, which claims that the Moon landing and the Apollo program were all staged by NASA and the proofs were fake. Most conspiracists focus on the oddities found in photographs and films taken during the landing of the moon.     	
+			</p>
+
+		</div>
+
+
+		<img class= "img3" src="img3.jpg" alt="fullpage">
+		<div class="writing">
+		<h5>Some proofs</h5>
+		<p class="fullpage1"> 
+			Some argue that the footprints on the proof photograph do not match with the foot soles of the shoes that the astronauts of Apollo 12 team wore during the expedition.   
+		</p>
+		</div>
+		<img class= "img4" src="img4.jpg" alt="fullpage">
+		
+
+
+
+		
+
+				
+
+	</div>
+ -->
+	
+
+</body>
+</html>

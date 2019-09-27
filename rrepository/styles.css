@@ -1,0 +1,95 @@
+body{
+	margin: 0;
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  border-color: none;
+}
+
+
+
+h1{
+	font-family: 'Mansalva', cursive;
+	font-size: 60px; 
+	margin-left: 30%;
+	margin-top: 0;
+	margin-bottom: 0;
+	/*position: fixed;*/
+}
+
+h2{
+	font-family: 'Mansalva', cursive;
+	font-size: 25px; 
+	margin-left: 43%;
+	margin-top: 1%;
+	/*position: fixed;*/
+}
+
+.intro{
+	width: 100%;
+	height: 120px;
+	/*background-color: #FFF2A0;*/
+	opacity: 50%;
+	margin-top: 5%;
+	position: sticky;
+	position: -webkit-sticky;
+	/*top: 300px;*/
+}
+
+
+
+
+.content{
+	margin-left: 7%;
+	margin-top: 4%;
+}
+
+.weekly{
+	width: 300px;
+	height: 200px; 
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 1%;
+	display: inline-block;
+}
+
+.weekly:hover{
+	color: 	#FF6347;
+	/*opacity: 30%;*/
+}
+
+.intro:hover{
+	color: 	#191970;
+	/*opacity: 30%;*/
+}
+
+
+
+
+h3{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px; 
+	/*text-transform: uppercase;*/
+	margin-left: 32%;
+	margin-bottom: 1%;
+	margin-top: 25%;
+	text-decoration: none;
+}
+
+h4{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10px; 
+	margin-top: 0;
+	/*text-transform: uppercase;*/
+	margin-left: 38%;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+
+

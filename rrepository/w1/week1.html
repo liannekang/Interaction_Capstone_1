@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+	 <link rel="stylesheet" type="text/css" href="w1styles.css">
+	 <script src="jquery.js"></script>
+	 <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	<title></title>
+</head>
+<body>
+	<div class="intro">
+		<h1>Reference Repository</h1>
+		<h2>Week 1</h2>
+	</div>
+
+
+
+	<div id="container">
+	<button class="left" onclick="plusDivs(-1)">&#10094;</button>
+  	<button class="right" onclick="plusDivs(1)">&#10095;</button>
+  	<img class="mySlides" src="img1.jpeg" style="width:50%">
+  	<img class="mySlides" src="img2.jpg" style="width:50%">
+  	<img class="mySlides" src="img3.jpg" style="width:50%">
+  	<img class="mySlides" src="img4.jpg" style="width:50%">
+
+  	
+	</div>
+
+<script>
+	var slideIndex = 1;
+	showDivs(slideIndex);
+
+	function plusDivs(n) {
+	  showDivs(slideIndex += n);
+	}
+
+	function showDivs(n) {
+	  var i;
+	  var x = document.getElementsByClassName("mySlides");
+	  if (n > x.length) {slideIndex = 1}
+	  if (n < 1) {slideIndex = x.length}
+	  for (i = 0; i < x.length; i++) {
+	    x[i].style.display = "none";  
+	  }
+	  x[slideIndex-1].style.display = "block";  
+	}
+</script>
+
+		<div class="writing">
+			<h5>Racism in Fashion Industry</h5>
+			<p class="fullpage1"> 
+				I read an article about Fashion brands creating and representing racist imageries through their items and advertisements. Luxury brand Gucci had a black turtleneck sweater that represented the 'black face' imagery. Blackface is a form of theatrical make-up used predominantly by non-black performers in the 19th century to represent a caricature of a black person. Gucci eventually apologized and took down their sweater from the collection, but people were still upset about it. 
+			</p>	
+		</div>
+
+		<div class="writing">
+			<h5>Other brands</h5>
+			<p class="fullpage1"> 
+				After reading the article, I searched for other brands that also upsetted people with racist imagery. Surprizingly Burbuerry, another luxury brand, apologized for sending a model down the runway at London Fashion Week wearing a hoodie with a noose around the neck. Dolce and Gabbana, already renowned for making racist statements, showed a Chinese model struggling to eat Italian food with chopsticks. H&M also promoted a hoodie with "Coolest Monkey in the jungle" on, and made african american kid model to wear it. 
+			</p>	
+		</div>
+
+		<div class="writing">
+			<h5>Thoughts</h5>
+			<p class="fullpage1"> 
+				
+			</p>	
+		</div>
+		
+		
+
+
+			
+
+				
+
+	</div>
+
+
+	
+
+</body>
+</html>
