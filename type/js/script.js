@@ -1,24 +1,5 @@
 $(document).ready(function(){
 
-jAlert('Example of a basic alert box in jquery', 'jquery basic alert box');
-});
-
-
-// $('.click').on('click',function(){
-
-// if($(".box,.click").attr('data-click-state') == 1) {
-// $(".box,.click").attr('data-click-state', 0)
-// $(".box,.click").css('background-color', '#41d4cf')
-// $("body, #alp").css('background-color', '#10206b')
-// } else {
-// $(".box,.click").attr('data-click-state', 1)
-// 	$(".box,.click").css('background-color', '#ee553b')
-// 	$("body, #alp").css('background-color', '#f6d55c')
-// }
-
-// });
-
-
 //-click to-//
 
 //-c-//
