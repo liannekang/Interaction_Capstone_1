@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+	 <link rel="stylesheet" type="text/css" href="w6styles.css">
+	 <script src="jquery.js"></script>
+	 <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	<title></title>
+</head>
+<body>
+	<div class="intro">
+		<h1>Reference Repository</h1>
+		<h2>Week 6</h2>
+	</div>
+
+	<div>
+
+
+	<div id="container">
+	<button class="left" onclick="plusDivs(-1)">&#10094;</button>
+  	<button class="right" onclick="plusDivs(1)">&#10095;</button>
+  	<img class="mySlides" src="img1.png" style="width:50%">
+  	<img class="mySlides" src="img2.png" style="width:50%">
+  	<img class="mySlides" src="img3.png" style="width:50%">
+  	<img class="mySlides" src="img4.png" style="width:50%">
+  	<img class="mySlides" src="img5.png" style="width:50%">
+  	<img class="mySlides" src="img6.png" style="width:50%">
+  
+
+  	
+	</div>
+
+<script>
+	var slideIndex = 1;
+	showDivs(slideIndex);
+
+	function plusDivs(n) {
+	  showDivs(slideIndex += n);
+	}
+
+	function showDivs(n) {
+	  var i;
+	  var x = document.getElementsByClassName("mySlides");
+	  if (n > x.length) {slideIndex = 1}
+	  if (n < 1) {slideIndex = x.length}
+	  for (i = 0; i < x.length; i++) {
+	    x[i].style.display = "none";  
+	  }
+	  x[slideIndex-1].style.display = "block";  
+	}
+</script>
+
+
+
+	<!-- <div> -->
+		
+
+		<div class="writing">
+			<h5>Invision App</h5>
+			<p class="fullpage1"> 
+				This week, I discovered a helpful website for designers and developers, "Invision App." Like other on-line design forums, Invision provides blog posts of various design trends and helpful tips. When I entered the Design Resource tab, I found out that there were a lot of mockup files for public use. They had video tutorials on interesting design tools and features.
+			</p>		
+			<p class="fullpage1"> 
+				When I signed in, I found out that Invision also provides studio software, which could be helpful in creating quick prototypes or designs. I have not used the studio function and many other tools that Invision provides yet. I may have to try and look into the various features that Invision provides, so that I could use it in my future works. 
+			</p>
+		</div>	
+
+
+		</div>
+
+	
+				
+
+	</div>	
+		
+
+
+				
+
+	</div>
+
+	
+
+</body>
+</html>
