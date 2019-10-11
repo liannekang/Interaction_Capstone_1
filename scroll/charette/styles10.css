@@ -1,0 +1,168 @@
+body{
+	margin: 0;
+	width: 100%;
+	height: 100%;
+  font-family: 'Grenze', serif;
+}
+
+.back{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+.number{
+	margin-left: 47%;
+	font-size: 5rem;
+	margin-bottom: 0;
+}
+
+.next{
+	background-color: white;
+	width: 100px;
+	height: 50px;
+	font-size: 2rem;
+	font-family: 'Grenze', serif;
+	display: inline-block;
+	position: absolute;
+	margin-left: 60%;
+}
+
+.previous{
+	background-color: white;
+	width: 100px;
+	height: 50px;
+	margin-left: 10%;
+	font-size: 2rem;
+	font-family: 'Grenze', serif;
+	display: inline-block;
+	position: absolute;
+}
+
+.buttons{
+	width: 300px;
+	height: 50px;
+	left: 38.5%;
+	margin-top:1000px;
+	position: absolute;
+}
+
+h2{
+	font-size: 0;
+	margin-left: 12%;
+	position: fixed;
+	top: 0%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: content-box;
+}
+
+:root {
+  --timeline-height: 5000px;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-family: system-ui, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.45;
+}
+
+.label {
+  position: absolute;
+  left: 2rem;
+  top: 0;
+  background: black;
+  padding: 0.5rem;
+  color: white;
+  font-size: 0.75rem;
+  z-index: 1;
+}
+.label.one {
+  top: calc(var(--timeline-height) * 0);
+}
+.label.two {
+  top: calc(var(--timeline-height) * 0.25);
+}
+.label.three {
+  top: calc(var(--timeline-height) * 0.5);
+}
+.label.four {
+  top: calc(var(--timeline-height) * 1.0);
+}
+.label:before {
+  content: 'Progress – ';
+}
+.label {
+  
+}
+.timeline {
+  height: 2000px;
+  width: 2rem;
+  /*background: rgb(0,198,255);*/
+  /*background: linear-gradient(180deg, rgba(0,198,255,1) 0%, rgba(255,0,189,1) 33%, rgba(255,214,0,1) 66%, rgba(0,0,0,1) 100%);*/
+/*   margin-bottom: 100vh; */
+}
+.timeline:before {
+  position: absolute;
+  color: white;
+  font-size: 0.75rem;
+  left: -3rem;
+  top: 4rem;
+  z-index: 2;
+  transform: rotate(90deg);
+}
+
+
+#scroll-container {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  
+  padding: 2rem;
+  
+  background-color: black;
+  color: white;
+  text-align: center;
+  /*z-index: 1;*/
+}
+
+
+.square{
+	position: fixed;
+	width: 300px;
+	height: 300px;
+}
+
+
+.square2{
+  position: fixed;
+  width: 300px;
+  height: 300px;
+}
+
+.square3{
+  position: fixed;
+  width: 100px;
+  height: 100px;
+}
+
+.square4{
+  position: fixed;
+  width: 100px;
+  height: 100px;
+}
+
+
+
