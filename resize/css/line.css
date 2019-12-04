@@ -1,9 +1,0 @@
-.line1, .line2{
-			opacity: 0.04;
-			animation:blink 500ms infinite alternate;
-		}
-
-		@keyframes blink {
-		    0% { opacity:0.01;}
-		    100% { opacity:0.04;}
-		};	
