@@ -1,0 +1,25 @@
+@media (max-width: 1200px) and (min-width: 250px) {
+		.line1, .line2{
+			opacity: 0.05;
+			animation:blink 500ms infinite alternate;
+		}
+
+		@keyframes blink {
+		    0% { opacity:0.01;}
+		    100% { opacity:0.05;}
+		};	
+
+}
+
+@media (max-width: 1440px) and (min-width: 1200px) {
+		.line1, .line2{
+			opacity: 0.05;
+			animation:blink 200ms infinite alternate;
+		}
+
+		@keyframes blink {
+		    0% { opacity:0.01;}
+		    100% { opacity:0.05;}
+		};	
+
+}
